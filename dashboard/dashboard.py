@@ -11,7 +11,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_and_process_data():
-    df = pd.read_csv("habitsense_clean.csv")
+    df = pd.read_csv("dashboard/habitsense_clean.csv")
 
     df["Weight_Change"] = df["Target_Weight_kg"] - df["Weight_kg"]
 
