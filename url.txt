@@ -1,1 +1,1 @@
-https://habitsense-dashboard.streamlit.app/
+https://habitsense-interactive-dashboard.streamlit.app/
